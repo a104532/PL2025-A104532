@@ -22,7 +22,7 @@ def somador_on_off(texto):
                 i += 2
         elif texto[i] == '=':
             print(soma)
-        i += 1  
+        i += 1
 
 
 for linha in sys.stdin:
