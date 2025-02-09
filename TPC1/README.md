@@ -21,7 +21,10 @@ O programa utiliza um ciclo while para ler cada digito da linha de texto forneci
 
 ---
 ## **Ficheiros Utilizados**
-    - [`somador_onoff.py`](./somador_onoff.py) -> Implementação do programa
+
+    - [somador_onoff.py](https://github.com/a104532/PL2025-A104532/blob/main/TPC1/somador_onoff.py) -> Implementação do programa
+
+
 
 
 
