@@ -25,6 +25,7 @@ Construção dos resultados:
 - Os compositores são guardados num set, evitando duplicações, e depois ordenados.
 - A distribuição das obras por período é armazenada num dicionário, contando quantas obras pertencem a cada período.
 - As obras por período são agrupadas, garantindo que os títulos fiquem organizados alfabeticamente.
+
 Por fim os resultados são apresentados através de um print.
 
 ## **Implementação**
