@@ -4,7 +4,6 @@
 
 ## **Autor:** Tomás Sousa Barbosa
 
----
 ## **Problema proposto**
 
 ### Realização de um programa em Python onde :
@@ -27,12 +26,12 @@ Construção dos resultados:
 - A distribuição das obras por período é armazenada num dicionário, contando quantas obras pertencem a cada período.
 - As obras por período são agrupadas, garantindo que os títulos fiquem organizados alfabeticamente.
 Por fim os resultados são apresentados através de um print.
----
+
 ## **Implementação**
 
-Ficheiro csv: [obras.csv]()
+Ficheiro csv: [obras.csv](https://github.com/a104532/PL2025-A104532/blob/main/TPC2/obras.csv)
 
-Programa: [parser.py]()
+Programa: [parser.py](https://github.com/a104532/PL2025-A104532/blob/main/TPC2/parser.py)
 
 Execução: `python3 parser.py < obras.csv`
 
