@@ -7,7 +7,6 @@
     <list default="true" id="dfa3f9b0-5365-482b-984d-b28b52d90cd8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../TPC1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TPC1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TPC1/somador_onoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TPC1/somador_onoff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1739745872585" duration="29000" />
       <workItem from="1739830410025" duration="2166000" />
       <workItem from="1739878098258" duration="341000" />
-      <workItem from="1739912293836" duration="5079000" />
+      <workItem from="1739912293836" duration="5161000" />
     </task>
     <servers />
   </component>

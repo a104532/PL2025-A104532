@@ -4,20 +4,21 @@ def somador_on_off(texto):
     ligado = True
     soma = 0
     i = 0
+    tamanho = len(texto)
 
-    while i < len(texto):
+    while i < tamanho:
         if texto[i] in "0123456789":
             valor = 0
-            while i < len(texto) and texto[i] in "0123456789":
+            while i < tamanho and texto[i] in "0123456789":
                 valor = valor * 10 + int(texto[i])
                 i += 1
             if ligado:
                 soma += valor
         elif texto[i].lower() == 'o':
-            if i + 1 < len(texto) and texto[i + 1].lower() == 'n':
+            if i + 1 < tamanho and texto[i + 1].lower() == 'n':
                 ligado = True
                 i += 1
-            elif i + 2 < len(texto) and texto[i + 1].lower() == 'f' and texto[i + 2].lower() == 'f':
+            elif i + 2 < tamanho and texto[i + 1].lower() == 'f' and texto[i + 2].lower() == 'f':
                 ligado = False
                 i += 2
         elif texto[i] == '=':
