@@ -22,8 +22,10 @@ Depois, `^\d+\. (.+)$` extrai os textos individuais dos itens. Um novo bloco `<o
 
 ## **Implementação**
  
-Programa: `conversor.py`
+Programa: [conversor.py](https://github.com/a104532/PL2025-A104532/blob/main/TPC3/conversor.py)
 
-Execução de programa teste : `teste.py`
+Ficheiro de teste: [teste.py](https://github.com/a104532/PL2025-A104532/blob/main/TPC3/teste.py)
+
+Execução de programa teste : `python3 teste.py`
 
 
