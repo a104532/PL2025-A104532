@@ -6,18 +6,24 @@
 
 ## **Problema proposto**
 
-### Realização de um programa em Python onde :
-
-
+### Criar em Python um pequeno conversor de MarkDown para HTML para os elementos descritos na "Basic Syntax" da Cheat Sheet
 
 ## Metodologia
 
-
+O código recebe um texto em Markdown e substitui os seus elementos por HTML usando expressões regulares.
+Para os cabeçalhos, ele usa `^# (.+)$`, onde `^` indica início da linha, `#` identifica um cabeçalho de nível 1 e `(.+)$` captura o restante do texto, substituindo por `<h1>\1</h1>`. 
+O mesmo padrão é aplicado para `##` e `###`. 
+Para o negrito, a regex `\*\*(.+?)\*\*` busca texto entre `**`, garantindo que seja capturado de forma não gananciosa `(.+?)`. 
+Para o itálico, a regex `(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)` evita capturar `**` dentro do padrão. 
+Os links `[texto](url)` são transformados com `\[(.*?)\]\((.*?)\)`, onde `.*?` captura texto e URL separadamente. 
+Imagens `![alt](url)` seguem um padrão semelhante, `!\[(.*?)\]\((.*?)\)`, mas gera uma tag `<img>`. 
+As listas numeradas são mais complexas, pois precisam de múltiplas linhas; primeiro, `(?:^\d+\. .+$\n?)+` encontra blocos de itens começando com um número e um ponto. 
+Depois, `^\d+\. (.+)$` extrai os textos individuais dos itens. Um novo bloco `<ol>` é montado iterando pelos itens e substituindo a versão Markdown pela estrutura HTML correspondente.
 
 ## **Implementação**
  
-Programa: 
+Programa: `conversor.py`
 
-Execução: `python3 parser.py < obras.csv`
+Execução de programa teste : `teste.py`
 
 
