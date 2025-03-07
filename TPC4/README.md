@@ -22,11 +22,15 @@ select ?nome ?desc where {
 
 ## Metodologia
 
-
+A implementação utiliza a biblioteca `ply`, que segue o modelo do popular gerador de analisadores léxicos LEX. O processo envolve:
+1. Definir uma lista dos nomes dos tokens
+2. Criar funções com o padrão `t_TOKENNAME` para cada token
+3. Configurar o analisador léxico com `lexer = lex.lex()`
+4. Processar o texto de entrada e extrair os tokens
 
 ## **Implementação**
  
-Programa: lexicalanly.py
+Programa: [`lexicalanly.py`]()
 
 Execução: `python3 lexicalanly.py < exemplo.txt`
 
