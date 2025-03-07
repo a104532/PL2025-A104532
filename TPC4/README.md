@@ -30,7 +30,7 @@ A implementação utiliza a biblioteca `ply`, que segue o modelo do popular gera
 
 ## **Implementação**
  
-Programa: [`lexicalanly.py`]()
+Programa: [`lexicalanly.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC4/lexicalanly.py)
 
 Execução: `python3 lexicalanly.py < exemplo.txt`
 
