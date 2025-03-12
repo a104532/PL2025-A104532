@@ -1,0 +1,38 @@
+[
+  {
+    "cod": "A23",
+    "nome": "água 0.5L",
+    "quant": 8,
+    "preco": 0.5
+  },
+  {
+    "cod": "A01",
+    "nome": "bolachas chocolate",
+    "quant": 6,
+    "preco": 0.8
+  },
+  {
+    "cod": "A02",
+    "nome": "wrap frango",
+    "quant": 4,
+    "preco": 2.8
+  },
+  {
+    "cod": "B23",
+    "nome": "palmier chocolate",
+    "quant": 2,
+    "preco": 0.7
+  },
+  {
+    "cod": "B01",
+    "nome": "kitkat",
+    "quant": 11,
+    "preco": 1
+  },
+  {
+    "cod": "B02",
+    "nome": "bolo brigadeiro",
+    "quant": 1,
+    "preco": 1.2
+  }
+]

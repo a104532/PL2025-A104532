@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa3f9b0-5365-482b-984d-b28b52d90cd8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TPC1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TPC1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TPC1/somador_onoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TPC1/somador_onoff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/tomasbarbosa/PL2025-A104532/TPC2",
+    "last_opened_file_path": "/home/tomasbarbosa/SegSisInf",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,6 +96,7 @@
       <workItem from="1739830410025" duration="2166000" />
       <workItem from="1739878098258" duration="341000" />
       <workItem from="1739912293836" duration="5161000" />
+      <workItem from="1740481555432" duration="429000" />
     </task>
     <servers />
   </component>
