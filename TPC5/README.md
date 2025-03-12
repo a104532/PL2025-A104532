@@ -51,7 +51,9 @@ Foi feita uma função para processar o pedido dependendo do tipo de comandos : 
 
 ## **Implementação**
  
-Programa: [`vendingMachine.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC4/lexicalanly.py)
+Programa: [`vendingMachine.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC5/vendingMachine.py)
+
+JSON : [`stock.json`](https://github.com/a104532/PL2025-A104532/blob/main/TPC5/stock.json)
 
 Execução: `python3 vendingMachine.py` - necessário ter o ply instalado (pip install ply)
 
