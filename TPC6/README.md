@@ -26,7 +26,7 @@ Esta separação apenas foi feita porque foi mostrada assim durante as aulas pr�
 
 ## **Implementação**
  
-Analisador Léxico: [`calc_lex.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC5/vendingMachine.py)
+Analisador Léxico: [`calc_lex.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC6/calc_lex.py)
 
-Analisador Sintático [`anasin.py`]()
+Analisador Sintático [`anasin.py`](https://github.com/a104532/PL2025-A104532/blob/main/TPC6/anasin.py)
 
